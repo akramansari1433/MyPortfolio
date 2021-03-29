@@ -3,7 +3,7 @@ import profile from './profile.jpeg'
 const About =()=> {
     return (
         <div className='bg-white pv3' id='about'>
-            <h1 className='tc ttu tracked-mega underline avenir pv3'>About Me</h1>
+            <h1 className='tc f2 b ttu tracked avenir pv3'>About Me</h1>
             <div className="cf pv4">
                 <div className="fl w-50-l w-100-ns tc">
                     <img alt='prpfile pic' className='br-100 h5-l h3-ns h4-m dib' src={profile}/>
@@ -23,7 +23,7 @@ const About =()=> {
                             fuga numquam voluptate architecto itaque molestiae.
                         </p>
                         <span className="mt3">
-                            <a className="f4 br2 ba b link ph3 pv2 mb2 dib black bg-white grow" href="#0">View Resume</a>
+                            <a className="btn btn-outline-dark btn-lg" href="#0">View Resume</a>
                         </span>
                     </div>
                 </div>

@@ -5,7 +5,6 @@ import Cover from './components/Cover/Cover';
 import Footer from './components/Footer/Footer';
 import Navbar from "./components/Navbar/Navbar";
 import ProjectCardList from './components/ProjectCardList/ProjectCardList';
-import Scroll from './components/Scroll/Scroll';
 import {project_list} from './Utils/Projects/Projects'
 import Particles from 'react-particles-js';
 import Contact from './components/Contact/Contact';
@@ -28,15 +27,13 @@ function App() {
   return (
     <>
       <Navbar/>
-      <Scroll>
-        <Particles className='particles' params={particlesOptions}/>
-        <Cover/>
-        <About/>
-        <ProjectCardList projects={projects}/>
-        <Skills/>
-        <Contact/>
-        <Footer/>
-      </Scroll>
+      <Particles className='particles' params={particlesOptions}/>
+      <Cover/>
+      <About/>
+      <ProjectCardList projects={projects}/>
+      <Skills/>
+      <Contact/>
+      <Footer/>
       
     </>
   );
