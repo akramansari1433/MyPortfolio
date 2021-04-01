@@ -4,7 +4,7 @@ const Footer=()=>{
     return(
         <div className='pv3 ph3 ph5-ns tc bg-white'>
                 <div>
-                    <p className='f2 b serif dark-blue'>Living, learning & leveling Up</p>
+                    <p className='f2 b serif dark-blue'>Living, learning & leveling up</p>
                 </div>
                 <footer className="pv4">
                     
