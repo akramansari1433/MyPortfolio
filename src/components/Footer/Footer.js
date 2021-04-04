@@ -2,10 +2,11 @@ import React from 'react';
 
 const Footer=()=>{
     return(
-        <div className='pv3 ph3 ph5-ns tc bg-white'>
+        <div className='pv3 ph3 ph5-ns tc bg-green'>
                 <div>
-                    <p className='f2 b serif dark-blue'>Living, learning & leveling up</p>
+                    <p className='f2 b serif black'>Living, learning & leveling up</p>
                 </div>
+                <hr className=''></hr>
                 <footer className="pv4">
                     
                     <a className="link near-black hover-silver dib h2 w2 mr3" href="https://github.com/akramansari1433" title="GitHub">

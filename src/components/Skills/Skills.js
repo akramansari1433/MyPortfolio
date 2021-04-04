@@ -4,7 +4,7 @@ import skillList from '../../Utils/Skills/Skills'
 
 const Skills=()=>{
 	return (
-		<div className='tc bg-white pv3' id='skills'>
+		<div className='tc bg-green pv3' id='skills'>
             <h1 className='tc f2 b ttu tracked avenir pv3'>Skills</h1>
 			<div className='d-flex flex-wrap justify-center pv3'>
 				{skillList.map((skill, i) => (
@@ -14,7 +14,7 @@ const Skills=()=>{
 							style={{ width: 'auto', height: '100%' }}
 							className='pa0 ma0'
 							viewBox='0 0 24 24'
-							color='primary'
+							htmlColor='black'
 						>
 							<path d={skill.svgPath} />
 						</SvgIcon>

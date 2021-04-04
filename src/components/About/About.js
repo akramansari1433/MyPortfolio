@@ -2,7 +2,7 @@ import React from 'react';
 import profile from './profile.jpeg'
 const About =()=> {
     return (
-        <div className='bg-white pv3' id='about'>
+        <div className='bg-green pv3' id='about'>
             <h1 className='tc f2 b ttu tracked avenir pv3'>About Me</h1>
             <div className="cf pv4">
                 <div className="fl w-50-l w-100-ns tc">
