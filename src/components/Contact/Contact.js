@@ -27,6 +27,9 @@ const Contact=()=>{
                         <input className="btn btn-dark" type="submit" value="Send"/>
                     </div>
                 </form>
+                 <div className='pt4'>
+                    <p className='f2 b serif black'>Living, learning & leveling up</p>
+                </div>
             </article>
         </div>
     )
