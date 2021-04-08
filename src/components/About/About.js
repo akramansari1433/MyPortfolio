@@ -9,7 +9,7 @@ const About =()=> {
                     <img alt='prpfile pic' className='br-100 h5-l h3-ns h4-m dib' src={profile}/>
                 </div>
                 <div className="fl w-50-l w-100-ns tc ph4">
-                    <div className="f4-l f5-ns">
+                    <div className="f4-l f5-ns pv3">
                         <p className="">
                             Hi, I'm Akram Ansari I'm a Full Stack Web Developer.
                             Creating Beautiful things with quality and elegance.  
