@@ -11,16 +11,10 @@ const About =()=> {
                 <div className="fl w-50-l w-100-ns tc ph4">
                     <div className="f4-l f5-ns">
                         <p className="">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                            Excepturi neque, ipsa animi maiores repellendu distinctioaperiam
-                            earum dolor voluptatum consequatur blanditiis inventore debitis
-                            fuga numquam voluptate architecto itaque molestiae.
-                        </p>
-                        <p className="">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                            Excepturi neque, ipsa animi maiores repellendu distinctioaperiam
-                            earum dolor voluptatum consequatur blanditiis inventore debitis
-                            fuga numquam voluptate architecto itaque molestiae.
+                            Hi, I'm Akram Ansari I'm a Full Stack Web Developer.
+                            Creating Beautiful things with quality and elegance.  
+                            I give life to designs and build cool websites. My favourite technology is ReactJS.
+                            <br/>Do check out my recent works below on Project Section.
                         </p>
                         <span className="mt3">
                             <a className="btn btn-outline-dark btn-lg" href="#0">View Resume</a>
