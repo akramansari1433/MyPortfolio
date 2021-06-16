@@ -1,6 +1,8 @@
 import roboFriend from '../Project-Image/RoboFriends.png';
 import smartBrain from '../Project-Image/SmartBrain.png';
 import bgGenerator from '../Project-Image/bgGenerator.png';
+import LiveCovidTracker from '../Project-Image/LiveCovidTracker.png';
+
 export  const project_list = [
 	{
 		image: roboFriend,
@@ -30,6 +32,16 @@ export  const project_list = [
 		links: {
 			liveView: 'https://akramansari1433.github.io/background-generator/',
 			github: 'https://github.com/akramansari1433/background-generator.git'
+		}
+	},
+	{
+		image: LiveCovidTracker,
+		title: 'Live Covid Tracker',
+		des:'Live reports of covid-19 cases in India',
+		tags: [ 'HTML', 'CSS', 'JavaScript' ],
+		links: {
+			liveView: 'https://akramansari1433.github.io/LiveCovidTracker/',
+			github: 'https://github.com/akramansari1433/LiveCovidTracker.git'
 		}
 	}
 ];
