@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-scroll';
+import Flip from 'react-reveal/Flip';
 
 const Cover=()=>{
     return (
         <div className='tc pv7' id='cover'>
+            <Flip top>
             <h1 className='f1 white'>Hello, I'm Akram Ansari<br/>
             I am a Web Developer</h1>
             <Link 
@@ -13,6 +15,7 @@ const Cover=()=>{
                 duration={800}>
                     Know More
             </Link>
+            </Flip>
         </div>
     );
 

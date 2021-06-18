@@ -1,13 +1,22 @@
 import React from 'react';
 import profile from './profile.jpeg'
+import Flip from 'react-reveal/Flip';
+import Bounce from 'react-reveal/Bounce';
+
 const About =()=> {
     return (
         <div className='bg-green pv3' id='about'>
-            <h1 className='tc f2 b ttu tracked avenir pv3'>About Me</h1>
+            <Flip left>
+                <h1 className='tc f2 b ttu tracked avenir pv3'>About Me</h1>
+            </Flip>
+            
             <div className="cf pv4">
-                <div className="fl w-50-l w-100-ns tc">
-                    <img alt='prpfile pic' className='br-100 h5-l h3-ns h4-m dib' src={profile}/>
-                </div>
+                <Bounce left>
+                    <div className="fl w-50-l w-100-ns tc">
+                        <img alt='prpfile pic' className='br-100 h5-l h3-ns h4-m dib' src={profile}/>
+                    </div>
+                </Bounce>
+                <Bounce right>
                 <div className="fl w-50-l w-100-ns tc ph4">
                     <div className="f4-l f5-ns pv3">
                         <p className="">
@@ -21,6 +30,7 @@ const About =()=> {
                         </span>
                     </div>
                 </div>
+                </Bounce>
             </div>
         </div>
     );

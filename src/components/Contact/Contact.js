@@ -1,5 +1,8 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
+import Flip from 'react-reveal/Flip';
+import Slide from 'react-reveal/Slide';
+import Zoom from 'react-reveal/Zoom'
 
 
 const sendEmail=(e)=>{
@@ -17,14 +20,26 @@ const sendEmail=(e)=>{
 const Contact=()=>{
     return(
         <div id="contact" className='tc bg-green pv3' >
-            <h1 className='ttc f2 b ttu tracked avenir pv3'>Contact Me</h1>
+            <Flip left>
+                <h1 className='ttc f2 b ttu tracked avenir pv3'>Contact Me</h1>
+            </Flip>
             <article className="black ph5">
                 <form onSubmit={sendEmail} acceptCharset="utf-8">
-                    <input className="b w-30-l w-80 ma3 pa2 input-reset ba bg-black" name="name"  id="name" placeholder='Name'/><br/> 
-                    <input className="b w-30-l w-80 ma3 pa2 input-reset ba bg-black" name="email"  id="email" placeholder='Email'/><br/> 
-                    <input className="b w-30-l w-80 ma3 pa2 input-reset ba bg-black" name="message"  id="message" placeholder='Message'/>
+                    <Slide left>
+                        <input className="b w-30-l w-80 ma3 pa2 input-reset ba bg-black" name="name"  id="name" placeholder='Name'/><br/> 
+                     </Slide>
+                    <Slide right>
+                        <input className="b w-30-l w-80 ma3 pa2 input-reset ba bg-black" name="email"  id="email" placeholder='Email'/><br/> 
+                    </Slide>
+                    <Slide left> 
+                    <   input className="b w-30-l w-80 ma3 pa2 input-reset ba bg-black" name="message"  id="message" placeholder='Message'/>
+                    </Slide>
+                    
                     <div className="mt3">
-                        <input className="btn btn-dark" type="submit" value="Send"/>
+                        <Zoom>
+                            <input className="btn btn-dark" type="submit" value="Send"/>
+                        </Zoom>
+                        
                     </div>
                 </form>
                  <div className='pt4'>
