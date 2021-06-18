@@ -26,13 +26,13 @@ const Contact=()=>{
             <article className="black ph5">
                 <form onSubmit={sendEmail} acceptCharset="utf-8">
                     <Slide left>
-                        <input className="b w-30-l w-80 ma3 pa2 input-reset ba bg-black" name="name"  id="name" placeholder='Name'/><br/> 
+                        <input className="br3 b w-30-l w-80 ma3 pa2 input-reset ba bg-black" name="name"  id="name" placeholder='Name'/><br/> 
                      </Slide>
                     <Slide right>
-                        <input className="b w-30-l w-80 ma3 pa2 input-reset ba bg-black" name="email"  id="email" placeholder='Email'/><br/> 
+                        <input className="br3 b w-30-l w-80 ma3 pa2 input-reset ba bg-black" name="email"  id="email" placeholder='Email'/><br/> 
                     </Slide>
                     <Slide left> 
-                    <   input className="b w-30-l w-80 ma3 pa2 input-reset ba bg-black" name="message"  id="message" placeholder='Message'/>
+                    <   input className="br3 b w-30-l w-80 ma3 pa2 input-reset ba bg-black" name="message"  id="message" placeholder='Message'/>
                     </Slide>
                     
                     <div className="mt3">
