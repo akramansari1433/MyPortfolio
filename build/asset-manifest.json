@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/MyPortfolio/static/css/main.6c5e7021.chunk.css",
+    "main.js": "/MyPortfolio/static/js/main.9b61cbb0.chunk.js",
+    "main.js.map": "/MyPortfolio/static/js/main.9b61cbb0.chunk.js.map",
+    "runtime-main.js": "/MyPortfolio/static/js/runtime-main.05495aed.js",
+    "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.05495aed.js.map",
+    "static/css/2.5c166b90.chunk.css": "/MyPortfolio/static/css/2.5c166b90.chunk.css",
+    "static/js/2.3b15fcee.chunk.js": "/MyPortfolio/static/js/2.3b15fcee.chunk.js",
+    "static/js/2.3b15fcee.chunk.js.map": "/MyPortfolio/static/js/2.3b15fcee.chunk.js.map",
+    "index.html": "/MyPortfolio/index.html",
+    "static/css/2.5c166b90.chunk.css.map": "/MyPortfolio/static/css/2.5c166b90.chunk.css.map",
+    "static/css/main.6c5e7021.chunk.css.map": "/MyPortfolio/static/css/main.6c5e7021.chunk.css.map",
+    "static/js/2.3b15fcee.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.3b15fcee.chunk.js.LICENSE.txt",
+    "static/media/RoboFriends.c9fecddb.png": "/MyPortfolio/static/media/RoboFriends.c9fecddb.png",
+    "static/media/SmartBrain.5d78c440.png": "/MyPortfolio/static/media/SmartBrain.5d78c440.png",
+    "static/media/bgGenerator.e97d6ed6.png": "/MyPortfolio/static/media/bgGenerator.e97d6ed6.png",
+    "static/media/covidTracker.d6742c90.png": "/MyPortfolio/static/media/covidTracker.d6742c90.png",
+    "static/media/profile.9b6b5e48.jpeg": "/MyPortfolio/static/media/profile.9b6b5e48.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.05495aed.js",
+    "static/css/2.5c166b90.chunk.css",
+    "static/js/2.3b15fcee.chunk.js",
+    "static/css/main.6c5e7021.chunk.css",
+    "static/js/main.9b61cbb0.chunk.js"
+  ]
+}
