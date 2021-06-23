@@ -1,5 +1,6 @@
 import React from 'react';
 import Flip from 'react-reveal/Flip';
+import Bounce from 'react-reveal/Bounce';
 import ProjectCard from '../ProjectCard/ProjectCard'
 
 
@@ -15,15 +16,17 @@ const ProjectCardList=({projects})=>{
             {
                 projects.map((project,i)=>{
                     return(
-                        <ProjectCard 
-                            key={i}
+                        <Bounce bottom key={i}>
+                            <ProjectCard 
                             image={project.image} 
                             title={project.title} 
                             des={project.des}
                             liveView={project.links.liveView}
                             githubLink={project.links.github}
                             
-                        />
+                            />
+                        </Bounce>
+                        
                     )
                 })
                 
