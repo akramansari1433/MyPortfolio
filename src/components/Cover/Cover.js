@@ -5,7 +5,7 @@ import coverImage from './Cover.svg'
 
 const Cover=()=>{
     return (
-        <div className='cf bg-black tc pv7-l pv6-m pv5-ns' id='cover'>
+        <div className='cf bg-black tc' id='cover' style={{padding:'240px 0'}}> 
             <div className="fl w-50-l w-100-ns">
                     <Flip top>
                     <h1 className='f1 white'>Hello, I'm Akram Ansari<br/>
