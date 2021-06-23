@@ -8,7 +8,7 @@ const ProjectCardList=({projects})=>{
     return(
         <div className='tc pv3' id='projects'>
             <Flip left>
-                 <h1 className='tc f2 b ttu tracked avenir pv3 white'>Projects</h1>
+                 <h1 className='tc f2 b ttu tracked avenir pv3 black'>Projects</h1>
             </Flip>
 
             <div className='flex flex-wrap justify-center ph3'>

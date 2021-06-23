@@ -19,20 +19,20 @@ const sendEmail=(e)=>{
 
 const Contact=()=>{
     return(
-        <div id="contact" className='tc bg-green pv3' >
+        <div id="contact" className='tc bg-light-green pv3' >
             <Flip left>
                 <h1 className='ttc f2 b ttu tracked avenir pv3'>Contact Me</h1>
             </Flip>
             <article className="black ph5">
                 <form onSubmit={sendEmail} acceptCharset="utf-8">
                     <Slide left>
-                        <input className="br3 b w-30-l w-80 ma3 pa2 input-reset ba bg-black" name="name"  id="name" placeholder='Name'/><br/> 
+                        <input className="br3 b w-30-l w-80 ma3 pa2 input-reset ba bg-black text-white" name="name"  id="name" placeholder='Name'/><br/> 
                      </Slide>
                     <Slide right>
-                        <input className="br3 b w-30-l w-80 ma3 pa2 input-reset ba bg-black" name="email"  id="email" placeholder='Email'/><br/> 
+                        <input className="br3 b w-30-l w-80 ma3 pa2 input-reset ba bg-black text-white" name="email"  id="email" placeholder='Email'/><br/> 
                     </Slide>
                     <Slide left> 
-                    <   input className="br3 b w-30-l w-80 ma3 pa2 input-reset ba bg-black" name="message"  id="message" placeholder='Message'/>
+                    <   input className="br3 b w-30-l w-80 ma3 pa2 input-reset ba bg-black text-white" name="message"  id="message" placeholder='Message'/>
                     </Slide>
                     
                     <div className="mt3">

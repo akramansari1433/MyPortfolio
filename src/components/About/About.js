@@ -5,7 +5,7 @@ import Bounce from 'react-reveal/Bounce';
 
 const About =()=> {
     return (
-        <div className='bg-green pv3' id='about'>
+        <div className='bg-light-green pv3' id='about'>
             <Flip left>
                 <h1 className='tc f2 b ttu tracked avenir pv3'>About Me</h1>
             </Flip>

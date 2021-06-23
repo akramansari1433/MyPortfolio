@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer=()=>{
     return(
-        <div className='pv3 ph3 ph5-ns tc bg-dark-green'>
+        <div className='pv3 ph3 ph5-ns tc bg-light-green'>
                 <footer className="pv3 pb4">
                     
                     <a className="link near-black hover-silver dib h2 w2 mr3" href="https://github.com/akramansari1433" title="GitHub">

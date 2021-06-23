@@ -6,7 +6,7 @@ import Zoom from 'react-reveal/Zoom';
 
 const Skills=()=>{
 	return (
-		<div className='tc bg-green pv3' id='skills'>
+		<div className='tc bg-light-green pv3' id='skills'>
 			<Flip left>
 				<h1 className='tc f2 b ttu tracked avenir pv3'>Skills</h1>
 			</Flip>

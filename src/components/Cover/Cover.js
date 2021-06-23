@@ -4,7 +4,7 @@ import Flip from 'react-reveal/Flip';
 
 const Cover=()=>{
     return (
-        <div className='tc pv7' id='cover'>
+        <div className='tc pv7 bg-dark-gray' id='cover'>
             <Flip top>
             <h1 className='f1 white'>Hello, I'm Akram Ansari<br/>
             I am a Web Developer</h1>

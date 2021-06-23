@@ -5,13 +5,13 @@ import { Link } from 'react-scroll';
 const Navbar=()=>{
     return (
         <div> 
-            <nav className="navbar navbar-expand-lg navbar-light bg-dark-green">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark-gray">
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
                     <ul className="navbar-nav m-auto mt-2 mt-lg-0 f3 b pv2 text-center">
-                        <li className="nav-item ph3 active hover-bg-light-gray">
+                        <li className="nav-item ph3 active hover-bg-black">
                             <Link
                                 className="nav-link"
                                 to="cover"
@@ -20,7 +20,7 @@ const Navbar=()=>{
                                     Home
                             </Link>
                         </li>
-                        <li className="nav-item ph3 active hover-bg-light-gray">
+                        <li className="nav-item ph3 active hover-bg-black">
                             <Link
                                 className="nav-link"
                                 to="about"
@@ -29,7 +29,7 @@ const Navbar=()=>{
                                     About
                             </Link>
                         </li>
-                        <li className="nav-item ph3 active hover-bg-light-gray">
+                        <li className="nav-item ph3 active hover-bg-black">
                             <Link
                                 className="nav-link"
                                 to="projects"
@@ -38,7 +38,7 @@ const Navbar=()=>{
                                     Projects
                             </Link>
                         </li>
-                        <li className="nav-item ph3 active hover-bg-light-gray">
+                        <li className="nav-item ph3 active hover-bg-black">
                             <Link
                                 className="nav-link"
                                 to="skills"
@@ -47,7 +47,7 @@ const Navbar=()=>{
                                     Skills
                             </Link>
                         </li>
-                        <li className="nav-item ph3 active hover-bg-light-gray">
+                        <li className="nav-item ph3 active hover-bg-black">
                             <Link
                                 className="nav-link"
                                 to="contact"

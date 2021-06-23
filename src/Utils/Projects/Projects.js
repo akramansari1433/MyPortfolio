@@ -5,16 +5,7 @@ import covidTracker from '../Project-Image/covidTracker.png';
 import facebookMessengerClone from '../Project-Image/facebookMessengerClone.png'
 
 export  const project_list = [
-	{
-		image: roboFriend,
-		title: 'RoboFriends',
-		des:'Fetching robots online through API and searching robots',
-		tags: [ 'HTML', 'CSS', 'React', 'JavaScript' ],
-		links: {
-			liveView: 'https://akramansari1433.github.io/RoboFriends/',
-			github: 'https://github.com/akramansari1433/RoboFriends.git'
-		}
-	},
+
 	{
 		image: smartBrain,
 		title: 'Face Recognition Brain',
@@ -23,16 +14,6 @@ export  const project_list = [
 		links: {
 			liveView: 'https://face-recog-brain-smartbrain.herokuapp.com/',
 			github: 'https://github.com/akramansari1433/smart-brain.git'
-		}
-	},
-	{
-		image: bgGenerator,
-		title: 'Background Generator',
-		des:'Background Generator using Linear Gradient',
-		tags: [ 'HTML', 'CSS', 'JavaScript' ],
-		links: {
-			liveView: 'https://akramansari1433.github.io/background-generator/',
-			github: 'https://github.com/akramansari1433/background-generator.git'
 		}
 	},
 	{
@@ -53,6 +34,26 @@ export  const project_list = [
 		links: {
 			liveView: 'https://facebook-messenger-clone-8c9fa.web.app/',
 			github: 'https://github.com/akramansari1433/facebook-messenger-clone.git'
+		}
+	},
+	{
+		image: roboFriend,
+		title: 'RoboFriends',
+		des:'Fetching robots online through API and searching robots',
+		tags: [ 'HTML', 'CSS', 'React', 'JavaScript' ],
+		links: {
+			liveView: 'https://akramansari1433.github.io/RoboFriends/',
+			github: 'https://github.com/akramansari1433/RoboFriends.git'
+		}
+	},
+	{
+		image: bgGenerator,
+		title: 'Background Generator',
+		des:'Background Generator using Linear Gradient',
+		tags: [ 'HTML', 'CSS', 'JavaScript' ],
+		links: {
+			liveView: 'https://akramansari1433.github.io/background-generator/',
+			github: 'https://github.com/akramansari1433/background-generator.git'
 		}
 	}
 ];
