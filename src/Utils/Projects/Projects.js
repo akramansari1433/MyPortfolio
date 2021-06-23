@@ -28,7 +28,7 @@ export  const project_list = [
 	},
 	{
 		image: facebookMessengerClone,
-		title: 'Facebook Messenger Clone',
+		title: 'Messenger Clone',
 		des:'Chat in realtime like Facebook Messenger',
 		tags: [ 'HTML', 'CSS', 'JavaScript' ,'FireBase'],
 		links: {
