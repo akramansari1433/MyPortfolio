@@ -1,22 +1,29 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import Flip from 'react-reveal/Flip';
+import coverImage from './Cover.svg'
 
 const Cover=()=>{
     return (
-        <div className='tc bg-dark-gray pv7' id='cover' style={{height:'100vh'}}>
-            <Flip top>
-            <h1 className='f1 white'>Hello, I'm Akram Ansari<br/>
-            I am a Web Developer</h1>
-            <Link 
-                className="btn btn-outline-info btn-lg mt-3" 
-                to="about"
-                smooth={true}
-                duration={800}>
-                    Know More
-            </Link>
-            </Flip>
+        <div className='cf bg-black tc pv7' id='cover' style={{height:'100vh'}}>
+            <div className="fl w-50-l w-100-ns">
+                    <Flip top>
+                    <h1 className='f1 white'>Hello, I'm Akram Ansari<br/>
+                    I am a Web Developer</h1>
+                    <Link 
+                        className="btn btn-outline-info btn-lg mv4" 
+                        to="about"
+                        smooth={true}
+                        duration={800}>
+                            Know More
+                    </Link>
+                    </Flip>
+            </div>
+            <div className="fl w-50-l w-100-ns">
+                <img className="h-50 w-50" src={coverImage} alt="Man saying Hi"/>
+            </div>
         </div>
+        
     );
 
 }
