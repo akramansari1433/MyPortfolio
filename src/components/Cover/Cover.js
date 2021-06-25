@@ -8,8 +8,8 @@ const Cover=()=>{
         <div className='cf bg-black tc' id='cover' style={{padding:'240px 0'}}> 
             <div className="fl w-50-l w-100-ns">
                     <Flip top>
-                    <h1 className='f1 white'>Hello, I'm Akram Ansari<br/>
-                    I am a Web Developer</h1>
+                    <h1 className='f1 white'>👋 Hi, I'm Akram Ansari<br/>
+                    I'm a Web Developer</h1>
                     <Link 
                         className="btn btn-outline-info btn-lg mv4" 
                         to="about"
