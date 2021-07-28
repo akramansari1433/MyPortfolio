@@ -26,7 +26,11 @@ const About =()=> {
                             <br/>Do check out my recent works below on Project Section.
                         </p>
                         <span className="mt3">
-                            <a className="btn btn-outline-dark btn-lg" href="#0">View Resume</a>
+                            <a 
+                                className="btn btn-outline-dark btn-lg" 
+                                href="https://drive.google.com/file/d/12Lv-HT8qswkjZmfMJT5Rsksggx7cN8N7/view?usp=sharing">
+                                View Resume
+                            </a>
                         </span>
                     </div>
                 </div>

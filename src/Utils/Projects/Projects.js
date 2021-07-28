@@ -1,6 +1,5 @@
 import roboFriend from '../Project-Image/RoboFriends.png';
 import smartBrain from '../Project-Image/SmartBrain.png';
-import bgGenerator from '../Project-Image/bgGenerator.png';
 import covidTracker from '../Project-Image/covidTracker.png';
 import facebookMessengerClone from '../Project-Image/facebookMessengerClone.png'
 
@@ -44,16 +43,6 @@ export  const project_list = [
 		links: {
 			liveView: 'https://akramansari1433.github.io/RoboFriends/',
 			github: 'https://github.com/akramansari1433/RoboFriends.git'
-		}
-	},
-	{
-		image: bgGenerator,
-		title: 'Background Generator',
-		des:'Background Generator using Linear Gradient',
-		tags: [ 'HTML', 'CSS', 'JavaScript' ],
-		links: {
-			liveView: 'https://akramansari1433.github.io/background-generator/',
-			github: 'https://github.com/akramansari1433/background-generator.git'
 		}
 	}
 ];
