@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.f9b85310.chunk.css",
-    "main.js": "/MyPortfolio/static/js/main.a299eefc.chunk.js",
-    "main.js.map": "/MyPortfolio/static/js/main.a299eefc.chunk.js.map",
+    "main.js": "/MyPortfolio/static/js/main.69d96ce9.chunk.js",
+    "main.js.map": "/MyPortfolio/static/js/main.69d96ce9.chunk.js.map",
     "runtime-main.js": "/MyPortfolio/static/js/runtime-main.2f2ec165.js",
     "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.2f2ec165.js.map",
     "static/css/2.5c166b90.chunk.css": "/MyPortfolio/static/css/2.5c166b90.chunk.css",
@@ -17,13 +17,14 @@
     "static/media/SmartBrain.5d78c440.png": "/MyPortfolio/static/media/SmartBrain.5d78c440.png",
     "static/media/covidTracker.d6742c90.png": "/MyPortfolio/static/media/covidTracker.d6742c90.png",
     "static/media/facebookMessengerClone.d83d7dd8.png": "/MyPortfolio/static/media/facebookMessengerClone.d83d7dd8.png",
-    "static/media/profile.9b6b5e48.jpeg": "/MyPortfolio/static/media/profile.9b6b5e48.jpeg"
+    "static/media/profile.9b6b5e48.jpeg": "/MyPortfolio/static/media/profile.9b6b5e48.jpeg",
+    "static/media/socialMedia.ca4133f4.png": "/MyPortfolio/static/media/socialMedia.ca4133f4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2f2ec165.js",
     "static/css/2.5c166b90.chunk.css",
     "static/js/2.015195e9.chunk.js",
     "static/css/main.f9b85310.chunk.css",
-    "static/js/main.a299eefc.chunk.js"
+    "static/js/main.69d96ce9.chunk.js"
   ]
 }
