@@ -9,10 +9,10 @@ export const project_list = [
       image: socialMedia,
       title: "Social Media App",
       des: "Complte social media app with chatting and nofications system",
-      tags: ["HTML", "CSS", "React", "JavaScript"],
+      tags: ["HTML", "CSS", "React", "Redux", "MaterialUI", "Firebase"],
       links: {
          liveView: "https://social-media-a38ca.web.app/",
-         github: "https://github.com/akramansari1433/smart-brain.git",
+         github: "https://github.com/akramansari1433/social-media-client.git",
       },
    },
    {
