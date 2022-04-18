@@ -1,24 +1,29 @@
-import React from 'react';
-import { Link } from 'react-scroll';
-import Flip from 'react-reveal/Flip';
+import React from "react";
+import TypeWriterEffect from "react-typewriter-effect";
 
-const Cover=()=>{
-    return (
-        <div className='tc pv7' id='cover'>
-            <Flip top>
-            <h1 className='f1 white'>Hello, I'm Akram Ansari<br/>
-            I am a Web Developer</h1>
-            <Link 
-                className="btn btn-dark btn-lg mt-3" 
-                to="about"
-                smooth={true}
-                duration={800}>
-                    Know More
-            </Link>
-            </Flip>
-        </div>
-    );
-
-}
+const Cover = () => {
+   return (
+      <div
+         className="d-flex justify-content-center align-items-center px-4"
+         id="cover"
+         style={{ height: "80vh" }}
+      >
+         <TypeWriterEffect
+            textStyle={{
+               fontFamily: "Roboto Mono",
+               color: "white",
+               fontWeight: 300,
+               fontSize: "4rem",
+            }}
+            startDelay={500}
+            cursorColor="#56fc03"
+            multiText={["Hello, I'm Akram Ansari", "I am a Web Developer."]}
+            multiTextDelay={1000}
+            typeSpeed={50}
+            multiTextLoop
+         />
+      </div>
+   );
+};
 
 export default Cover;
