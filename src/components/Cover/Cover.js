@@ -19,7 +19,7 @@ const Cover = () => {
             cursorColor="#56fc03"
             multiText={["Hello, I'm Akram Ansari", "I am a Web Developer."]}
             multiTextDelay={1000}
-            typeSpeed={50}
+            typeSpeed={70}
             multiTextLoop
          />
       </div>

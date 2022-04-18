@@ -72,12 +72,12 @@ const Contact = () => {
                   </Zoom>
                </div>
             </form>
-            <div className="pt4">
-               <p className="mt-5 px-3 h4 text-white">
-                  Living, learning & leveling up.
-               </p>
-            </div>
          </article>
+         <div className="pt4">
+            <p className="mt-5 px-3 h4 text-white">
+               Living, learning & leveling up.
+            </p>
+         </div>
       </div>
    );
 };

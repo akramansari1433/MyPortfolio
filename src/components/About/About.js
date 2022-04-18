@@ -25,8 +25,8 @@ const About = () => {
 
                         <p className="mt-3 h5 text-white">
                            Hi, I'm Akram Ansari I'm a Full Stack Web Developer.
-                           Creating Beautiful things with quality and elegance.
-                           I give life to designs and build cool websites. My
+                           Creating Beautiful things with quality and elegance.I
+                           give life to designs and build cool websites. My
                            favourite technology is ReactJS. Do check out my
                            recent works below on Project Section.
                         </p>
