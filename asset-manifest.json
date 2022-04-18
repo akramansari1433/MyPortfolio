@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6c5e7021.chunk.css",
-    "main.js": "/portfolio/static/js/main.c67ea8d4.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.c67ea8d4.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.1d2a43e9.chunk.css",
+    "main.js": "/portfolio/static/js/main.690609cb.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.690609cb.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.35dfc33e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.35dfc33e.js.map",
-    "static/css/2.5c166b90.chunk.css": "/portfolio/static/css/2.5c166b90.chunk.css",
-    "static/js/2.d6e75403.chunk.js": "/portfolio/static/js/2.d6e75403.chunk.js",
-    "static/js/2.d6e75403.chunk.js.map": "/portfolio/static/js/2.d6e75403.chunk.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/portfolio/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.0049486c.chunk.js": "/portfolio/static/js/2.0049486c.chunk.js",
+    "static/js/2.0049486c.chunk.js.map": "/portfolio/static/js/2.0049486c.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/2.5c166b90.chunk.css.map": "/portfolio/static/css/2.5c166b90.chunk.css.map",
-    "static/css/main.6c5e7021.chunk.css.map": "/portfolio/static/css/main.6c5e7021.chunk.css.map",
-    "static/js/2.d6e75403.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d6e75403.chunk.js.LICENSE.txt",
+    "static/css/2.4c97ca4f.chunk.css.map": "/portfolio/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.1d2a43e9.chunk.css.map": "/portfolio/static/css/main.1d2a43e9.chunk.css.map",
+    "static/js/2.0049486c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.0049486c.chunk.js.LICENSE.txt",
     "static/media/RoboFriends.c9fecddb.png": "/portfolio/static/media/RoboFriends.c9fecddb.png",
     "static/media/SmartBrain.5d78c440.png": "/portfolio/static/media/SmartBrain.5d78c440.png",
     "static/media/bgGenerator.e97d6ed6.png": "/portfolio/static/media/bgGenerator.e97d6ed6.png",
     "static/media/covidTracker.d6742c90.png": "/portfolio/static/media/covidTracker.d6742c90.png",
     "static/media/facebookMessengerClone.d83d7dd8.png": "/portfolio/static/media/facebookMessengerClone.d83d7dd8.png",
-    "static/media/profile.9b6b5e48.jpeg": "/portfolio/static/media/profile.9b6b5e48.jpeg"
+    "static/media/profile.0bc32bb1.jpg": "/portfolio/static/media/profile.0bc32bb1.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.35dfc33e.js",
-    "static/css/2.5c166b90.chunk.css",
-    "static/js/2.d6e75403.chunk.js",
-    "static/css/main.6c5e7021.chunk.css",
-    "static/js/main.c67ea8d4.chunk.js"
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.0049486c.chunk.js",
+    "static/css/main.1d2a43e9.chunk.css",
+    "static/js/main.690609cb.chunk.js"
   ]
 }
