@@ -28,7 +28,7 @@ const About = () => {
                            Creating Beautiful things with quality and elegance.I
                            give life to designs and build cool websites. My
                            favourite technology is ReactJS. Do check out my
-                           recent works below on Project Section.
+                           recent works on Project Section.
                         </p>
                         <div className="text-center">
                            <a
